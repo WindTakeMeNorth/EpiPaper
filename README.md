@@ -53,7 +53,14 @@ python -m backend.epi_ape.cli init
 python -m backend.epi_ape.cli run-cycle --generate 3 --matches 20
 ```
 
-Automated daily run is configured in `.github/workflows/epi-ape-cycle.yml`.
+Or local run + auto-push artifacts:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/run_local_cycle.ps1 -Generate 5 -Matches 50
+```
+
+Manual GitHub run is configured in `.github/workflows/epi-ape-cycle.yml` (optional).
+Recommended mode for `ape-papers`-style usage is local run + local push.
 
 ## Skills installation
 

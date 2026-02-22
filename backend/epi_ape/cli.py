@@ -10,6 +10,9 @@ from .skills import audit_skills
 from .utils import ensure_dir
 
 
+ARTIFACT_SYNC_PATHS = ["backend/state", "data", "papers"]
+
+
 def _root_dir() -> Path:
     return Path(__file__).resolve().parents[2]
 
@@ -65,6 +68,7 @@ def cmd_run_cycle(
     matches: int,
     sync_github_after: bool,
     commit_message: str,
+    all_files: bool,
 ) -> int:
     root = _root_dir()
     _load_env_files(root)
@@ -88,6 +92,7 @@ def cmd_run_cycle(
             branch=settings.github_branch,
             push=True,
             commit_message=commit_message,
+            stage_paths=None if all_files else ARTIFACT_SYNC_PATHS,
         )
         print(result.message)
         for line in result.details:
@@ -108,7 +113,7 @@ def cmd_publish() -> int:
     return 0
 
 
-def cmd_sync_github(push: bool, message: str) -> int:
+def cmd_sync_github(push: bool, message: str, all_files: bool) -> int:
     root = _root_dir()
     _load_env_files(root)
     settings = load_settings(root)
@@ -119,6 +124,7 @@ def cmd_sync_github(push: bool, message: str) -> int:
         branch=settings.github_branch,
         push=push,
         commit_message=message,
+        stage_paths=None if all_files else ARTIFACT_SYNC_PATHS,
     )
 
     print(result.message)
@@ -156,6 +162,11 @@ def main() -> int:
         default="chore: run epi-ape cycle",
         help="Commit message when --sync-github is enabled",
     )
+    run_parser.add_argument(
+        "--all-files",
+        action="store_true",
+        help="When syncing, include all changed files (default: artifacts only)",
+    )
 
     sub.add_parser("publish-web", help="Publish current state into web data files")
 
@@ -170,6 +181,11 @@ def main() -> int:
         default="chore: sync epi-ape papers and tournament state",
         help="Commit message when --push is provided",
     )
+    sync_parser.add_argument(
+        "--all-files",
+        action="store_true",
+        help="Include all changed files (default: artifacts only)",
+    )
 
     args = parser.parse_args()
 
@@ -183,11 +199,16 @@ def main() -> int:
             matches=args.matches,
             sync_github_after=args.sync_github,
             commit_message=args.commit_message,
+            all_files=args.all_files,
         )
     if args.command == "publish-web":
         return cmd_publish()
     if args.command == "sync-github":
-        return cmd_sync_github(push=args.push, message=args.message)
+        return cmd_sync_github(
+            push=args.push,
+            message=args.message,
+            all_files=args.all_files,
+        )
 
     return 1
 

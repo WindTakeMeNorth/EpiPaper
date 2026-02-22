@@ -28,6 +28,7 @@ def sync_to_github(
     branch: str,
     push: bool,
     commit_message: str,
+    stage_paths: list[str] | None = None,
 ) -> GitSyncResult:
     details: list[str] = []
 
@@ -57,7 +58,12 @@ def sync_to_github(
             details=details,
         )
 
-    add = _run_git(["add", "."], root_dir)
+    if stage_paths:
+        add_args = ["add", "--", *stage_paths]
+    else:
+        add_args = ["add", "."]
+
+    add = _run_git(add_args, root_dir)
     if add.returncode != 0:
         return GitSyncResult(
             ok=False, message="git add failed.", details=[add.stderr.strip()]

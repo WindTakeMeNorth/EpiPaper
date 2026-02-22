@@ -24,7 +24,7 @@ From repository root:
 python -m backend.epi_ape.cli init
 python -m backend.epi_ape.cli skills-audit
 python -m backend.epi_ape.cli run-cycle --generate 3 --matches 20
-# with git sync in same run:
+# with git sync in same run (artifacts only: backend/state, data, papers):
 python -m backend.epi_ape.cli run-cycle --generate 3 --matches 20 --sync-github --commit-message "chore: run epi-ape cycle"
 ```
 
@@ -54,6 +54,7 @@ Optional keys for real model integration:
 - `DEEPSEEK_API_KEY`
 
 If keys are missing, pipeline still runs in deterministic simulation mode for testing.
+This means GitHub secrets are optional if you run the cycle locally and push from local.
 
 Model strings can be prefixed by provider for explicit routing:
 
@@ -87,6 +88,14 @@ Commit and push:
 ```bash
 python -m backend.epi_ape.cli sync-github --push --message "chore: update epi-ape papers and ratings"
 ```
+
+By default, sync commits only artifact paths:
+
+- `backend/state`
+- `data`
+- `papers`
+
+To include all modified files, add `--all-files`.
 
 ## Notes
 
