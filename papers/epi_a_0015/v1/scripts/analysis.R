@@ -1,5 +1,4 @@
-set.seed(20260222)
-# epi_a_003 - Community Water Kiosks and Childhood Diarrheal Burden
+# epi_a_0015 - Telehealth Parity Expansion and Diabetes Continuity Of Care in Rural Counties
 # Auto-generated starter script for EPI-APE.
 
 suppressPackageStartupMessages({
@@ -8,7 +7,7 @@ suppressPackageStartupMessages({
   library(ggplot2)
 })
 
-cat("Running analysis for epi_a_003\n")
+cat("Running analysis for epi_a_0015\n")
 
 # TODO: Replace with real data extraction code.
 dt <- data.table(
@@ -18,7 +17,7 @@ dt <- data.table(
 )
 
 dt[, post := as.integer(year >= 2022)]
-dt[, y := 0.5 * treated * post + 0]
+dt[, y := 0.5 * treated * post + rnorm(.N)]
 
 mod <- feols(y ~ treated * post | unit + year, data = dt, vcov = ~unit)
 print(summary(mod))
@@ -32,5 +31,3 @@ plot(dt$year, dt$y, pch = 19, col = rgb(0, 0, 0, 0.15), main = "Placeholder outc
 dev.off()
 
 cat("Done. Outputs in ./outputs\n")
-
-# Note: Ensure clustered standard errors remain aligned with treatment assignment level.

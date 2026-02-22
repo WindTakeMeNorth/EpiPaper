@@ -214,5 +214,158 @@
     "judge_model": "gemini-2.5-flash",
     "swapped_consistent": true,
     "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_002",
+    "paper_b": "epi_h_008",
+    "winner": "paperB",
+    "date": "2026-02-22T16:07:01+00:00",
+    "judge_model": "gemini:gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Paper A is explicitly a preliminary draft with unfinalized data, rendering it unsuitable for evaluation as a complete scientific work. In contrast, Paper B's exceptionally high advisor and reviewer scores strongly indicate it is a well-exec"
+  },
+  {
+    "paper_a": "epi_a_009",
+    "paper_b": "epi_h_008",
+    "winner": "paperB",
+    "date": "2026-02-22T16:08:59+00:00",
+    "judge_model": "gemini:gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Paper B demonstrates significantly higher scientific substance and readiness for publication, as evidenced by its outstanding advisor and reviewer scores. Paper A, conversely, is explicitly an early draft with unfinalized data, rendering it"
+  },
+  {
+    "paper_a": "epi_a_0015",
+    "paper_b": "epi_h_004",
+    "winner": "paperB",
+    "date": "2026-02-22T16:12:45+00:00",
+    "judge_model": "gemini:gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_0014",
+    "paper_b": "epi_h_005",
+    "winner": "paperB",
+    "date": "2026-02-22T16:18:56+00:00",
+    "judge_model": "gemini:gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_004",
+    "paper_b": "epi_h_001",
+    "winner": "paperB",
+    "date": "2026-02-22T16:19:02+00:00",
+    "judge_model": "gemini:gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_006",
+    "paper_b": "epi_h_001",
+    "winner": "paperB",
+    "date": "2026-02-22T16:50:22+00:00",
+    "judge_model": "gemini:gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Paper B demonstrates significantly higher scientific substance due to its robust and clearly articulated causal identification strategy (Stepped Wedge DiD) and exceptionally strong advisor and reviewer scores. Paper A, in contrast, lacks a "
+  },
+  {
+    "paper_a": "epi_a_001",
+    "paper_b": "epi_h_004",
+    "winner": "paperB",
+    "date": "2026-02-22T16:50:45+00:00",
+    "judge_model": "gemini:gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Paper B demonstrates significantly higher scientific substance, evidenced by its exceptional advisor and reviewer scores, which strongly imply robust execution of a sophisticated identification strategy on a highly policy-relevant and novel"
+  },
+  {
+    "paper_a": "epi_a_0015",
+    "paper_b": "epi_h_006",
+    "winner": "paperA",
+    "date": "2026-02-22T16:51:11+00:00",
+    "judge_model": "gemini:gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Paper A presents a robust quasi-experimental design (Regression Discontinuity) with a clear plan for establishing causal inference, which is a fundamental requirement for top economics journals. Paper B, conversely, only specifies a descrip"
+  },
+  {
+    "paper_a": "epi_a_0016",
+    "paper_b": "epi_h_001",
+    "winner": "paperB",
+    "date": "2026-02-22T16:51:36+00:00",
+    "judge_model": "gemini:gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Paper B demonstrates significantly higher scientific substance and readiness for publication, primarily evidenced by its exceptionally high advisor and reviewer scores. Paper A, despite a relevant topic and strong proposed methodology, is f"
+  },
+  {
+    "paper_a": "epi_a_003",
+    "paper_b": "epi_h_001",
+    "winner": "paperA",
+    "date": "2026-02-22T16:52:06+00:00",
+    "judge_model": "gemini:gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Paper A demonstrates superior scientific substance through its explicit and detailed commitment to rigorous execution, comprehensive robustness checks, and clear scope limitations. While Paper B's topic and method are strong, its excerpt la"
+  },
+  {
+    "paper_a": "epi_a_010",
+    "paper_b": "epi_h_003",
+    "winner": "paperB",
+    "date": "2026-02-22T16:52:30+00:00",
+    "judge_model": "gemini:gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Paper B demonstrates significantly higher scientific substance due to its robust quasi-experimental identification strategy (Event Study) and exceptionally strong endorsement from both advisors and reviewers. In contrast, Paper A's reliance"
+  },
+  {
+    "paper_a": "epi_a_006",
+    "paper_b": "epi_h_007",
+    "winner": "paperB",
+    "date": "2026-02-22T16:52:53+00:00",
+    "judge_model": "gemini:gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Paper B demonstrates superior scientific substance due to its clear and robust Difference-in-Differences identification strategy, highly policy-relevant topic, and exceptionally high advisor and reviewer scores. Paper A, in contrast, is an "
+  },
+  {
+    "paper_a": "epi_a_010",
+    "paper_b": "epi_h_008",
+    "winner": "paperB",
+    "date": "2026-02-22T16:53:16+00:00",
+    "judge_model": "gemini:gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Paper B demonstrates a significantly stronger identification strategy with 'Target Trial Emulation,' which is crucial for credible causal inference in top economics journals. This, combined with its high policy relevance and superior prelim"
+  },
+  {
+    "paper_a": "epi_a_0019",
+    "paper_b": "epi_h_009",
+    "winner": "tie",
+    "date": "2026-02-22T16:53:55+00:00",
+    "judge_model": "gemini:gemini-2.5-flash",
+    "swapped_consistent": false,
+    "rationale_short": "Paper B demonstrates superior scientific substance, likely due to a more innovative methodological approach to a complex, globally relevant problem, as reflected in its significantly higher advisor and reviewer scores. Top: Novelty and Conc"
+  },
+  {
+    "paper_a": "epi_a_0015",
+    "paper_b": "epi_h_002",
+    "winner": "paperB",
+    "date": "2026-02-22T16:54:22+00:00",
+    "judge_model": "gemini:gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Paper B exhibits significantly higher scientific substance, as reflected by its exceptional advisor and reviewer scores, which strongly imply robust execution and compelling findings. Paper A, conversely, is explicitly a preliminary draft w"
+  },
+  {
+    "paper_a": "epi_a_010",
+    "paper_b": "epi_h_007",
+    "winner": "paperB",
+    "date": "2026-02-22T16:54:45+00:00",
+    "judge_model": "gemini:gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Paper B demonstrates a superior identification strategy (Difference-in-Differences), addresses a more novel and specific policy question, and crucially, has significantly higher advisor and reviewer scores, indicating a much more robust and"
+  },
+  {
+    "paper_a": "epi_a_009",
+    "paper_b": "epi_h_006",
+    "winner": "paperA",
+    "date": "2026-02-22T16:55:05+00:00",
+    "judge_model": "gemini:gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Paper A presents a robust quasi-experimental identification strategy (Interrupted Time Series) with explicit plans for validity checks, which is crucial for credible causal inference in economics. In contrast, Paper B's proposed method (Mul"
   }
 ]

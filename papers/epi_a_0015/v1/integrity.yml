@@ -1,0 +1,7 @@
+checks:
+  - name: no-fabricated-data
+    status: pending
+  - name: reproducible-run
+    status: pending
+  - name: placebo-tests
+    status: pending

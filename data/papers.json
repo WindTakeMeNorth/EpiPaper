@@ -6,10 +6,10 @@
     "venue": "Lancet Public Health",
     "track": "Community Health",
     "method": "Stepped Wedge DiD",
-    "mu": 39.499,
-    "sigma": 1.197,
-    "elo": 2050,
-    "matchesPlayed": 199,
+    "mu": 39.047,
+    "sigma": 1.178,
+    "elo": 2033,
+    "matchesPlayed": 203,
     "reviewed": true,
     "year": 2025,
     "paperUrl": "#",
@@ -19,7 +19,8 @@
     "advisorScore": 95.0,
     "reviewerScore": 92.0,
     "reviewRecommendation": "accept",
-    "integrityFlags": []
+    "integrityFlags": [],
+    "revisionRound": 0
   },
   {
     "id": "epi_h_002",
@@ -28,10 +29,10 @@
     "venue": "American Journal of Epidemiology",
     "track": "Environmental EPI",
     "method": "Regression Discontinuity",
-    "mu": 37.032,
-    "sigma": 1.095,
-    "elo": 1957,
-    "matchesPlayed": 186,
+    "mu": 37.102,
+    "sigma": 1.093,
+    "elo": 1959,
+    "matchesPlayed": 187,
     "reviewed": true,
     "year": 2024,
     "paperUrl": "#",
@@ -41,7 +42,8 @@
     "advisorScore": 95.0,
     "reviewerScore": 92.0,
     "reviewRecommendation": "accept",
-    "integrityFlags": []
+    "integrityFlags": [],
+    "revisionRound": 0
   },
   {
     "id": "epi_h_003",
@@ -50,10 +52,10 @@
     "venue": "International Journal of Epidemiology",
     "track": "Social & Spatial EPI",
     "method": "Event Study",
-    "mu": 35.81,
+    "mu": 35.834,
     "sigma": 0.998,
-    "elo": 1910,
-    "matchesPlayed": 170,
+    "elo": 1911,
+    "matchesPlayed": 171,
     "reviewed": true,
     "year": 2023,
     "paperUrl": "#",
@@ -63,7 +65,8 @@
     "advisorScore": 95.0,
     "reviewerScore": 92.0,
     "reviewRecommendation": "accept",
-    "integrityFlags": []
+    "integrityFlags": [],
+    "revisionRound": 0
   },
   {
     "id": "epi_h_004",
@@ -72,10 +75,10 @@
     "venue": "Epidemiology",
     "track": "Health Equity & Policy",
     "method": "Synthetic Control",
-    "mu": 34.238,
-    "sigma": 0.999,
-    "elo": 1851,
-    "matchesPlayed": 155,
+    "mu": 34.348,
+    "sigma": 0.997,
+    "elo": 1855,
+    "matchesPlayed": 157,
     "reviewed": true,
     "year": 2025,
     "paperUrl": "#",
@@ -85,7 +88,8 @@
     "advisorScore": 95.0,
     "reviewerScore": 92.0,
     "reviewRecommendation": "accept",
-    "integrityFlags": []
+    "integrityFlags": [],
+    "revisionRound": 0
   },
   {
     "id": "epi_h_005",
@@ -94,10 +98,10 @@
     "venue": "BMJ Global Health",
     "track": "Infectious Disease Dynamics",
     "method": "Panel DiD",
-    "mu": 33.868,
+    "mu": 33.906,
     "sigma": 1.096,
-    "elo": 1836,
-    "matchesPlayed": 150,
+    "elo": 1838,
+    "matchesPlayed": 151,
     "reviewed": true,
     "year": 2024,
     "paperUrl": "#",
@@ -107,29 +111,8 @@
     "advisorScore": 95.0,
     "reviewerScore": 92.0,
     "reviewRecommendation": "accept",
-    "integrityFlags": []
-  },
-  {
-    "id": "epi_h_006",
-    "title": "Community Health Worker Networks and Maternal Follow-up Completion",
-    "source": "human",
-    "venue": "Social Science & Medicine",
-    "track": "Community Health",
-    "method": "Multilevel Logistic Model",
-    "mu": 32.7,
-    "sigma": 1.094,
-    "elo": 1792,
-    "matchesPlayed": 141,
-    "reviewed": true,
-    "year": 2022,
-    "paperUrl": "#",
-    "status": "peer_reviewed",
-    "advisorPasses": 4,
-    "advisorTotal": 4,
-    "advisorScore": 95.0,
-    "reviewerScore": 92.0,
-    "reviewRecommendation": "accept",
-    "integrityFlags": []
+    "integrityFlags": [],
+    "revisionRound": 0
   },
   {
     "id": "epi_h_007",
@@ -138,10 +121,10 @@
     "venue": "Nature Medicine",
     "track": "Environmental EPI",
     "method": "Difference-in-Differences",
-    "mu": 31.955,
-    "sigma": 0.998,
-    "elo": 1764,
-    "matchesPlayed": 134,
+    "mu": 32.086,
+    "sigma": 0.993,
+    "elo": 1769,
+    "matchesPlayed": 136,
     "reviewed": true,
     "year": 2021,
     "paperUrl": "#",
@@ -151,7 +134,31 @@
     "advisorScore": 95.0,
     "reviewerScore": 92.0,
     "reviewRecommendation": "accept",
-    "integrityFlags": []
+    "integrityFlags": [],
+    "revisionRound": 0
+  },
+  {
+    "id": "epi_h_006",
+    "title": "Community Health Worker Networks and Maternal Follow-up Completion",
+    "source": "human",
+    "venue": "Social Science & Medicine",
+    "track": "Community Health",
+    "method": "Multilevel Logistic Model",
+    "mu": 32.161,
+    "sigma": 1.079,
+    "elo": 1772,
+    "matchesPlayed": 143,
+    "reviewed": true,
+    "year": 2022,
+    "paperUrl": "#",
+    "status": "peer_reviewed",
+    "advisorPasses": 4,
+    "advisorTotal": 4,
+    "advisorScore": 95.0,
+    "reviewerScore": 92.0,
+    "reviewRecommendation": "accept",
+    "integrityFlags": [],
+    "revisionRound": 0
   },
   {
     "id": "epi_h_008",
@@ -160,10 +167,10 @@
     "venue": "Journal of Epidemiology & Community Health",
     "track": "Health Equity & Policy",
     "method": "Target Trial Emulation",
-    "mu": 31.37,
-    "sigma": 1.189,
-    "elo": 1742,
-    "matchesPlayed": 126,
+    "mu": 31.703,
+    "sigma": 1.165,
+    "elo": 1754,
+    "matchesPlayed": 129,
     "reviewed": true,
     "year": 2020,
     "paperUrl": "#",
@@ -173,7 +180,8 @@
     "advisorScore": 95.0,
     "reviewerScore": 92.0,
     "reviewRecommendation": "accept",
-    "integrityFlags": []
+    "integrityFlags": [],
+    "revisionRound": 0
   },
   {
     "id": "epi_h_009",
@@ -182,10 +190,10 @@
     "venue": "PLOS Medicine",
     "track": "Social & Spatial EPI",
     "method": "Spatial Panel Model",
-    "mu": 30.896,
-    "sigma": 1.084,
-    "elo": 1724,
-    "matchesPlayed": 123,
+    "mu": 30.83,
+    "sigma": 1.081,
+    "elo": 1721,
+    "matchesPlayed": 124,
     "reviewed": true,
     "year": 2023,
     "paperUrl": "#",
@@ -195,32 +203,31 @@
     "advisorScore": 95.0,
     "reviewerScore": 92.0,
     "reviewRecommendation": "accept",
-    "integrityFlags": []
+    "integrityFlags": [],
+    "revisionRound": 0
   },
   {
-    "id": "epi_a_002",
-    "title": "Cooling Center Access and Emergency Cardiovascular Visits",
+    "id": "epi_a_003",
+    "title": "Community Water Kiosks and Childhood Diarrheal Burden",
     "source": "ai",
-    "venue": "EPI-APE Working Paper #2 (v1)",
-    "track": "Environmental EPI",
-    "method": "Spatial DiD",
-    "mu": 29.516,
-    "sigma": 1.18,
-    "elo": 1671,
-    "matchesPlayed": 97,
+    "venue": "EPI-APE Working Paper #3 (v1)",
+    "track": "Community Health",
+    "method": "Synthetic Control",
+    "mu": 29.624,
+    "sigma": 1.182,
+    "elo": 1675,
+    "matchesPlayed": 90,
     "reviewed": false,
     "year": 2026,
-    "paperUrl": "papers/epi_a_002/v1",
+    "paperUrl": "papers/epi_a_003/v1",
     "status": "reviewed",
-    "advisorPasses": 3,
+    "advisorPasses": 4,
     "advisorTotal": 4,
-    "advisorScore": 70.28,
-    "reviewerScore": 84.46,
-    "reviewRecommendation": "minor",
-    "integrityFlags": [
-      "data-manifest-incomplete",
-      "uses-simulated-placeholder-data"
-    ]
+    "advisorScore": 73.66,
+    "reviewerScore": 91.12,
+    "reviewRecommendation": "accept",
+    "integrityFlags": [],
+    "revisionRound": 1
   },
   {
     "id": "epi_a_001",
@@ -229,10 +236,10 @@
     "venue": "EPI-APE Working Paper #1 (v1)",
     "track": "Community Health",
     "method": "Event Study",
-    "mu": 29.801,
-    "sigma": 1.276,
-    "elo": 1682,
-    "matchesPlayed": 104,
+    "mu": 29.68,
+    "sigma": 1.265,
+    "elo": 1677,
+    "matchesPlayed": 105,
     "reviewed": false,
     "year": 2026,
     "paperUrl": "papers/epi_a_001/v1",
@@ -245,32 +252,34 @@
     "integrityFlags": [
       "data-manifest-incomplete",
       "uses-simulated-placeholder-data"
-    ]
+    ],
+    "revisionRound": 0
   },
   {
-    "id": "epi_a_003",
-    "title": "Community Water Kiosks and Childhood Diarrheal Burden",
+    "id": "epi_a_002",
+    "title": "Cooling Center Access and Emergency Cardiovascular Visits",
     "source": "ai",
-    "venue": "EPI-APE Working Paper #3 (v1)",
-    "track": "Community Health",
-    "method": "Synthetic Control",
-    "mu": 29.1,
-    "sigma": 1.2,
-    "elo": 1702,
-    "matchesPlayed": 89,
+    "venue": "EPI-APE Working Paper #2 (v1)",
+    "track": "Environmental EPI",
+    "method": "Spatial DiD",
+    "mu": 29.359,
+    "sigma": 1.169,
+    "elo": 1665,
+    "matchesPlayed": 98,
     "reviewed": false,
     "year": 2026,
-    "paperUrl": "papers/epi_a_003/v1",
-    "status": "advisor_failed",
-    "advisorPasses": 2,
+    "paperUrl": "papers/epi_a_002/v1",
+    "status": "reviewed",
+    "advisorPasses": 3,
     "advisorTotal": 4,
-    "advisorScore": 68.95,
-    "reviewerScore": 0.0,
-    "reviewRecommendation": "pending",
+    "advisorScore": 70.28,
+    "reviewerScore": 84.46,
+    "reviewRecommendation": "minor",
     "integrityFlags": [
       "data-manifest-incomplete",
       "uses-simulated-placeholder-data"
-    ]
+    ],
+    "revisionRound": 0
   },
   {
     "id": "epi_a_005",
@@ -295,7 +304,8 @@
     "integrityFlags": [
       "data-manifest-incomplete",
       "uses-simulated-placeholder-data"
-    ]
+    ],
+    "revisionRound": 0
   },
   {
     "id": "epi_a_004",
@@ -304,10 +314,10 @@
     "venue": "EPI-APE Working Paper #4 (v1)",
     "track": "Environmental EPI",
     "method": "Panel DiD",
-    "mu": 28.57,
-    "sigma": 1.273,
-    "elo": 1635,
-    "matchesPlayed": 83,
+    "mu": 28.542,
+    "sigma": 1.271,
+    "elo": 1634,
+    "matchesPlayed": 84,
     "reviewed": false,
     "year": 2026,
     "paperUrl": "papers/epi_a_004/v1",
@@ -320,7 +330,8 @@
     "integrityFlags": [
       "data-manifest-incomplete",
       "uses-simulated-placeholder-data"
-    ]
+    ],
+    "revisionRound": 0
   },
   {
     "id": "epi_a_006",
@@ -329,10 +340,10 @@
     "venue": "EPI-APE Working Paper #6 (v1)",
     "track": "Social & Spatial EPI",
     "method": "Bayesian Hierarchical",
-    "mu": 27.667,
-    "sigma": 1.095,
-    "elo": 1601,
-    "matchesPlayed": 76,
+    "mu": 27.558,
+    "sigma": 1.09,
+    "elo": 1597,
+    "matchesPlayed": 78,
     "reviewed": false,
     "year": 2026,
     "paperUrl": "papers/epi_a_006/v1",
@@ -345,7 +356,8 @@
     "integrityFlags": [
       "data-manifest-incomplete",
       "uses-simulated-placeholder-data"
-    ]
+    ],
+    "revisionRound": 0
   },
   {
     "id": "epi_a_007",
@@ -370,7 +382,8 @@
     "integrityFlags": [
       "data-manifest-incomplete",
       "uses-simulated-placeholder-data"
-    ]
+    ],
+    "revisionRound": 0
   },
   {
     "id": "epi_a_008",
@@ -395,7 +408,8 @@
     "integrityFlags": [
       "data-manifest-incomplete",
       "uses-simulated-placeholder-data"
-    ]
+    ],
+    "revisionRound": 0
   },
   {
     "id": "epi_a_009",
@@ -404,10 +418,10 @@
     "venue": "EPI-APE Working Paper #9 (v1)",
     "track": "Infectious Disease Dynamics",
     "method": "Interrupted Time Series",
-    "mu": 26.362,
-    "sigma": 0.999,
-    "elo": 1551,
-    "matchesPlayed": 61,
+    "mu": 26.565,
+    "sigma": 0.989,
+    "elo": 1559,
+    "matchesPlayed": 63,
     "reviewed": false,
     "year": 2026,
     "paperUrl": "papers/epi_a_009/v1",
@@ -420,7 +434,8 @@
     "integrityFlags": [
       "data-manifest-incomplete",
       "uses-simulated-placeholder-data"
-    ]
+    ],
+    "revisionRound": 0
   },
   {
     "id": "epi_a_011",
@@ -445,7 +460,8 @@
     "integrityFlags": [
       "data-manifest-incomplete",
       "uses-simulated-placeholder-data"
-    ]
+    ],
+    "revisionRound": 0
   },
   {
     "id": "epi_a_010",
@@ -454,10 +470,10 @@
     "venue": "EPI-APE Working Paper #10 (v1)",
     "track": "Social & Spatial EPI",
     "method": "Nearest-Neighbor Matching",
-    "mu": 26.016,
-    "sigma": 1.195,
-    "elo": 1538,
-    "matchesPlayed": 61,
+    "mu": 25.82,
+    "sigma": 1.179,
+    "elo": 1531,
+    "matchesPlayed": 64,
     "reviewed": false,
     "year": 2026,
     "paperUrl": "papers/epi_a_010/v1",
@@ -470,7 +486,8 @@
     "integrityFlags": [
       "data-manifest-incomplete",
       "uses-simulated-placeholder-data"
-    ]
+    ],
+    "revisionRound": 0
   },
   {
     "id": "epi_a_012",
@@ -495,7 +512,8 @@
     "integrityFlags": [
       "data-manifest-incomplete",
       "uses-simulated-placeholder-data"
-    ]
+    ],
+    "revisionRound": 0
   },
   {
     "id": "epi_a_013",
@@ -520,7 +538,57 @@
     "integrityFlags": [
       "data-manifest-incomplete",
       "uses-simulated-placeholder-data"
-    ]
+    ],
+    "revisionRound": 0
+  },
+  {
+    "id": "epi_a_0015",
+    "title": "Telehealth Parity Expansion and Diabetes Continuity Of Care in Rural Counties",
+    "source": "ai",
+    "venue": "EPI-APE Working Paper #15 (v1)",
+    "track": "Community Health",
+    "method": "Regression Discontinuity",
+    "mu": 30.049,
+    "sigma": 4.564,
+    "elo": 1691,
+    "matchesPlayed": 3,
+    "reviewed": false,
+    "year": 2026,
+    "paperUrl": "papers/epi_a_0015/v1",
+    "status": "reviewed",
+    "advisorPasses": 4,
+    "advisorTotal": 4,
+    "advisorScore": 72.28,
+    "reviewerScore": 81.08,
+    "reviewRecommendation": "minor",
+    "integrityFlags": [
+      "data-manifest-incomplete",
+      "uses-simulated-placeholder-data"
+    ],
+    "revisionRound": 0
+  },
+  {
+    "id": "epi_a_0019",
+    "title": "Cross-Border Spillovers of Medicaid Expansion: Mortality Effects in Non-Expansion Border Counties",
+    "source": "ai",
+    "venue": "EPI-APE Working Paper #19 (v2)",
+    "track": "Social & Spatial EPI",
+    "method": "Event Study Difference-in-Differences",
+    "mu": 28.88,
+    "sigma": 4.873,
+    "elo": 1647,
+    "matchesPlayed": 1,
+    "reviewed": false,
+    "year": 2026,
+    "paperUrl": "papers/epi_a_0019/v2",
+    "status": "reviewed",
+    "advisorPasses": 3,
+    "advisorTotal": 4,
+    "advisorScore": 73.03,
+    "reviewerScore": 84.54,
+    "reviewRecommendation": "minor",
+    "integrityFlags": [],
+    "revisionRound": 0
   },
   {
     "id": "epi_a_0014",
@@ -529,10 +597,10 @@
     "venue": "EPI-APE Working Paper #14 (v1)",
     "track": "Social & Spatial EPI",
     "method": "Target Trial Emulation",
-    "mu": 23.786,
-    "sigma": 7.55,
-    "elo": 1453,
-    "matchesPlayed": 1,
+    "mu": 22.016,
+    "sigma": 6.614,
+    "elo": 1386,
+    "matchesPlayed": 2,
     "reviewed": false,
     "year": 2026,
     "paperUrl": "papers/epi_a_0014/v1",
@@ -545,6 +613,82 @@
     "integrityFlags": [
       "data-manifest-incomplete",
       "uses-simulated-placeholder-data"
-    ]
+    ],
+    "revisionRound": 0
+  },
+  {
+    "id": "epi_a_0016",
+    "title": "Telehealth Parity Expansion and Vaccine Booster Equity in Urban Districts",
+    "source": "ai",
+    "venue": "EPI-APE Working Paper #16 (v1)",
+    "track": "Environmental EPI",
+    "method": "Synthetic Control",
+    "mu": 23.798,
+    "sigma": 7.556,
+    "elo": 1454,
+    "matchesPlayed": 1,
+    "reviewed": false,
+    "year": 2026,
+    "paperUrl": "papers/epi_a_0016/v1",
+    "status": "reviewed",
+    "advisorPasses": 4,
+    "advisorTotal": 4,
+    "advisorScore": 84.34,
+    "reviewerScore": 77.15,
+    "reviewRecommendation": "major",
+    "integrityFlags": [
+      "data-manifest-incomplete",
+      "uses-simulated-placeholder-data"
+    ],
+    "revisionRound": 0
+  },
+  {
+    "id": "epi_a_0017",
+    "title": "Bus Fare Subsidy For Outpatient Follow-Up and Vaccine Booster Equity in Low-Income Neighborhoods",
+    "source": "ai",
+    "venue": "EPI-APE Working Paper #17 (v1)",
+    "track": "Infectious Disease Dynamics",
+    "method": "Synthetic Control",
+    "mu": 25.0,
+    "sigma": 8.333,
+    "elo": 1500,
+    "matchesPlayed": 0,
+    "reviewed": false,
+    "year": 2026,
+    "paperUrl": "papers/epi_a_0017/v1",
+    "status": "reviewed",
+    "advisorPasses": 4,
+    "advisorTotal": 4,
+    "advisorScore": 75.19,
+    "reviewerScore": 71.24,
+    "reviewRecommendation": "major",
+    "integrityFlags": [
+      "data-manifest-incomplete",
+      "uses-simulated-placeholder-data"
+    ],
+    "revisionRound": 0
+  },
+  {
+    "id": "epi_a_0018",
+    "title": "Mobile Vaccine Campaign and Outbreak Response Delay in Border Municipalities",
+    "source": "ai",
+    "venue": "EPI-APE Working Paper #18 (v1)",
+    "track": "Health Equity & Policy",
+    "method": "Synthetic Control",
+    "mu": 25.0,
+    "sigma": 8.333,
+    "elo": 1500,
+    "matchesPlayed": 0,
+    "reviewed": false,
+    "year": 2026,
+    "paperUrl": "papers/epi_a_0018/v1",
+    "status": "reviewed",
+    "advisorPasses": 4,
+    "advisorTotal": 4,
+    "advisorScore": 87.69,
+    "reviewerScore": 79.06,
+    "reviewRecommendation": "minor",
+    "integrityFlags": [],
+    "revisionRound": 0
   }
 ]

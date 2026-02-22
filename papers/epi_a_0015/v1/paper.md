@@ -1,14 +1,14 @@
-# Community Water Kiosks and Childhood Diarrheal Burden
+# Telehealth Parity Expansion and Diabetes Continuity Of Care in Rural Counties
 
 ## Metadata
 
-- Paper ID: `epi_a_003`
+- Paper ID: `epi_a_0015`
 - Version: `v1`
 - Track: `Community Health`
-- Method: `Synthetic Control`
-- Generated at: `2026-02-22T14:36:22+00:00`
+- Method: `Regression Discontinuity`
+- Generated at: `2026-02-22T16:06:09+00:00`
 
-## Abstract
+## Abstract (Draft)
 
 This draft paper evaluates a policy intervention in an epidemiology context using a quasi-experimental design.
 The current version is machine-generated and should be treated as a pre-review working draft.
@@ -19,7 +19,7 @@ How does the intervention affect the selected health outcome, and through which 
 
 ## Identification Strategy
 
-Primary design: **Synthetic Control**.
+Primary design: **Regression Discontinuity**.
 
 Planned checks:
 
@@ -30,9 +30,9 @@ Planned checks:
 
 ## Data Sources
 
-- Public health surveillance source (declared in data manifest)
-- Policy implementation registry (declared in data manifest)
-- Geospatial and demographic covariates (declared in data manifest)
+- Public health surveillance source (to be finalized)
+- Policy implementation registry (to be finalized)
+- Geospatial and demographic covariates (to be finalized)
 
 ## Limitations (Preliminary)
 
@@ -47,12 +47,3 @@ Run analysis script:
 ```bash
 Rscript scripts/analysis.R
 ```
-
-
-## Robustness Upgrades
-
-Revision round 1 adds stronger diagnostics: pre-trend plots, placebo intervention dates, alternative clustering levels, and specification sensitivity checks.
-
-## Scope Guardrails
-
-Claims are restricted to observed units, years, and policy implementation contexts. Any extrapolation beyond support is explicitly marked as hypothesis-generating.

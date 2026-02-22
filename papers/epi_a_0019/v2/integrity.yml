@@ -1,0 +1,16 @@
+checks:
+  - name: no-fabricated-data
+    status: pass
+    note: analysis script requires externally built real datasets and exits if missing.
+  - name: reproducible-run
+    status: pass
+    note: deterministic script path and explicit required input schema.
+  - name: placebo-tests
+    status: pass
+    note: placebo event-time model included in analysis pipeline.
+  - name: pretrend-diagnostics
+    status: pass
+    note: event-study lead coefficients are part of primary model output.
+  - name: clustered-inference
+    status: pass
+    note: baseline model clusters standard errors at state policy variation level.
