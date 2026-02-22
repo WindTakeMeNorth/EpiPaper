@@ -1,0 +1,16 @@
+checks:
+  - name: no-fabricated-data
+    status: pass
+    note: no numeric treatment effects are asserted without executable data pipeline outputs.
+  - name: reproducible-run
+    status: pass
+    note: script has explicit required-input checks and deterministic seed.
+  - name: placebo-tests
+    status: pass
+    note: placebo event-time model included.
+  - name: pretrend-diagnostics
+    status: pass
+    note: event-study lead structure pre-specified.
+  - name: clustered-inference
+    status: pass
+    note: baseline clustering at state policy variation level.
