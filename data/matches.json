@@ -1,0 +1,132 @@
+{
+  "lastUpdated": "2026-02-22T15:21:29+00:00",
+  "totalMatches": 24,
+  "dailyMatches": 50,
+  "aiVsHuman": {
+    "aiWins": 2,
+    "humanWins": 21,
+    "ties": 1
+  },
+  "recentMatches": [
+    {
+      "paperA": "epi_a_0014",
+      "paperB": "epi_h_001",
+      "winner": "paperB",
+      "date": "2026-02-22T15:21:29+00:00"
+    },
+    {
+      "paperA": "epi_a_002",
+      "paperB": "epi_h_008",
+      "winner": "paperB",
+      "date": "2026-02-22T15:20:55+00:00"
+    },
+    {
+      "paperA": "epi_a_011",
+      "paperB": "epi_h_007",
+      "winner": "paperB",
+      "date": "2026-02-22T15:20:55+00:00"
+    },
+    {
+      "paperA": "epi_a_010",
+      "paperB": "epi_h_002",
+      "winner": "paperB",
+      "date": "2026-02-22T14:38:23+00:00"
+    },
+    {
+      "paperA": "epi_a_001",
+      "paperB": "epi_h_009",
+      "winner": "paperB",
+      "date": "2026-02-22T14:38:23+00:00"
+    },
+    {
+      "paperA": "epi_a_004",
+      "paperB": "epi_h_006",
+      "winner": "paperB",
+      "date": "2026-02-22T14:38:23+00:00"
+    },
+    {
+      "paperA": "epi_a_001",
+      "paperB": "epi_h_002",
+      "winner": "paperB",
+      "date": "2026-02-22T14:38:23+00:00"
+    },
+    {
+      "paperA": "epi_a_006",
+      "paperB": "epi_h_002",
+      "winner": "paperB",
+      "date": "2026-02-22T14:38:23+00:00"
+    },
+    {
+      "paperA": "epi_a_006",
+      "paperB": "epi_h_001",
+      "winner": "paperB",
+      "date": "2026-02-22T14:37:18+00:00"
+    },
+    {
+      "paperA": "epi_a_010",
+      "paperB": "epi_h_003",
+      "winner": "paperB",
+      "date": "2026-02-22T14:37:18+00:00"
+    },
+    {
+      "paperA": "epi_a_006",
+      "paperB": "epi_h_001",
+      "winner": "paperB",
+      "date": "2026-02-22T14:37:18+00:00"
+    },
+    {
+      "paperA": "epi_a_008",
+      "paperB": "epi_h_003",
+      "winner": "paperB",
+      "date": "2026-02-22T14:37:18+00:00"
+    },
+    {
+      "paperA": "epi_a_006",
+      "paperB": "epi_h_005",
+      "winner": "paperB",
+      "date": "2026-02-22T14:37:18+00:00"
+    },
+    {
+      "paperA": "epi_a_009",
+      "paperB": "epi_h_004",
+      "winner": "paperB",
+      "date": "2026-02-22T14:37:18+00:00"
+    },
+    {
+      "paperA": "epi_a_002",
+      "paperB": "epi_h_001",
+      "winner": "paperB",
+      "date": "2026-02-22T14:37:18+00:00"
+    },
+    {
+      "paperA": "epi_a_002",
+      "paperB": "epi_h_003",
+      "winner": "paperB",
+      "date": "2026-02-22T14:37:18+00:00"
+    },
+    {
+      "paperA": "epi_a_010",
+      "paperB": "epi_h_002",
+      "winner": "paperB",
+      "date": "2026-02-22T14:37:18+00:00"
+    },
+    {
+      "paperA": "epi_a_004",
+      "paperB": "epi_h_009",
+      "winner": "paperB",
+      "date": "2026-02-22T14:37:18+00:00"
+    },
+    {
+      "paperA": "epi_a_008",
+      "paperB": "epi_h_005",
+      "winner": "tie",
+      "date": "2026-02-22T08:37:00Z"
+    },
+    {
+      "paperA": "epi_a_013",
+      "paperB": "epi_h_002",
+      "winner": "paperB",
+      "date": "2026-02-22T08:31:00Z"
+    }
+  ]
+}

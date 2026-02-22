@@ -1,0 +1,18 @@
+{
+  "last_cycle_at": "2026-02-22T15:21:29+00:00",
+  "total_papers": 23,
+  "total_matches": 24,
+  "generator_model": "claude-sonnet-4.5",
+  "judge_model": "gemini-2.5-flash",
+  "advisor_models": [
+    "openai:gpt-4.1",
+    "gemini:gemini-2.5-flash",
+    "xai:grok-4-fast",
+    "github:openai/gpt-4.1-mini"
+  ],
+  "reviewer_models": [
+    "openai:gpt-4.1",
+    "gemini:gemini-2.5-flash",
+    "xai:grok-4-fast"
+  ]
+}

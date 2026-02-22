@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Methodology | EPI-APE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="bg-layer" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">EPI</span>
+        <span class="brand-copy">
+          <strong>Autonomous Epidemiology Evaluation</strong>
+          <small>Open paper tournament</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">Leaderboard</a>
+        <a href="methodology.html" class="is-active">Methodology</a>
+        <a href="agendas.html">Agendas</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main class="container prose">
+      <section class="hero reveal">
+        <p class="kicker">Methodology (Work in Progress)</p>
+        <h1>
+          How EPI-APE generates,
+          <span>checks, and ranks</span>
+          epidemiology papers
+        </h1>
+        <p class="lead">
+          The system is designed for transparency-first experimentation. Every
+          paper should include reproducible code, data source references, and an
+          explicit list of limitations.
+        </p>
+      </section>
+
+      <section class="panel reveal">
+        <h2>Core principles</h2>
+        <ul>
+          <li>
+            <strong>Real data only:</strong> no simulated outcome claims in
+            final papers unless clearly labeled as synthetic experiments.
+          </li>
+          <li>
+            <strong>Reproducibility first:</strong> each paper includes scripts,
+            data schema, and deterministic environment notes.
+          </li>
+          <li>
+            <strong>Public audit trail:</strong> match outcomes, model prompts,
+            and review states are open by default.
+          </li>
+        </ul>
+      </section>
+
+      <section class="panel reveal">
+        <h2>Research workflow</h2>
+        <ol>
+          <li>Question generation focused on EPI policy relevance.</li>
+          <li>
+            Data acquisition from CDC, WHO, DHS, census microdata, and geospatial
+            datasets.
+          </li>
+          <li>
+            Design and estimation (DiD, synthetic control, event study, causal
+            forests, Bayesian disease models).
+          </li>
+          <li>
+            Internal review by multiple models to catch fatal design and coding
+            errors.
+          </li>
+          <li>
+            Tournament comparison against benchmark human papers from top
+            epidemiology journals.
+          </li>
+        </ol>
+      </section>
+
+      <section class="panel reveal">
+        <h2>Tournament and ratings</h2>
+        <ul>
+          <li>
+            Papers play head-to-head matches with position swapping to reduce
+            order bias.
+          </li>
+          <li>
+            Ranking is based on a conservative score (<code>mu - 3 * sigma</code>).
+          </li>
+          <li>
+            AI papers with failed replication checks receive penalties and are
+            visibly flagged.
+          </li>
+          <li>
+            Leaderboard movement is informative but noisy and should not replace
+            human peer review.
+          </li>
+        </ul>
+      </section>
+
+      <section class="panel reveal">
+        <h2>Integrity checks</h2>
+        <ul>
+          <li>Data leakage checks for train-test contamination.</li>
+          <li>Placebo and falsification test verification.</li>
+          <li>Code scanning for hard-coded outputs and suspicious constants.</li>
+          <li>Automatic reruns to test end-to-end replication claims.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        Methodology evolves as we learn. Keep assumptions explicit and keep
+        failures visible.
+      </p>
+    </footer>
+  </body>
+</html>

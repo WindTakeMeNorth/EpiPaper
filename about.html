@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | EPI-APE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="bg-layer" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">EPI</span>
+        <span class="brand-copy">
+          <strong>Autonomous Epidemiology Evaluation</strong>
+          <small>Open paper tournament</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">Leaderboard</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="agendas.html">Agendas</a>
+        <a href="about.html" class="is-active">About</a>
+      </nav>
+    </header>
+
+    <main class="container prose">
+      <section class="hero reveal">
+        <p class="kicker">About the project</p>
+        <h1>
+          EPI-APE is a public benchmark for
+          <span>AI-generated epidemiology research</span>
+        </h1>
+        <p class="lead">
+          The purpose is not to replace scientists. The purpose is to identify
+          whether AI can contribute reliable first-pass analyses in domains where
+          rigorous evidence is scarce.
+        </p>
+      </section>
+
+      <section class="panel reveal">
+        <h2>What this is</h2>
+        <ul>
+          <li>An open leaderboard that compares AI and human papers.</li>
+          <li>A transparent testing ground for methods and failure modes.</li>
+          <li>A triage system for which ideas deserve expert attention next.</li>
+        </ul>
+      </section>
+
+      <section class="panel reveal">
+        <h2>What this is not</h2>
+        <ul>
+          <li>Not a substitute for peer review.</li>
+          <li>Not a clinical recommendation engine.</li>
+          <li>Not a guarantee that high-ranked papers are correct.</li>
+        </ul>
+      </section>
+
+      <section class="panel reveal">
+        <h2>Minimum transparency checklist</h2>
+        <ul>
+          <li>Complete code and reproducibility instructions.</li>
+          <li>Dataset provenance and transformation log.</li>
+          <li>Design assumptions and robustness checks.</li>
+          <li>Explicit caveats on external validity and bias risk.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        If a paper matters for decisions, it must survive human scrutiny,
+        replication, and domain expertise.
+      </p>
+    </footer>
+  </body>
+</html>

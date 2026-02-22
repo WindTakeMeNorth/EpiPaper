@@ -1,0 +1,218 @@
+[
+  {
+    "paper_a": "epi_a_001",
+    "paper_b": "epi_h_006",
+    "winner": "paperB",
+    "date": "2026-02-22T08:10:00Z",
+    "judge_model": "unknown",
+    "swapped_consistent": true,
+    "rationale_short": ""
+  },
+  {
+    "paper_a": "epi_a_002",
+    "paper_b": "epi_h_007",
+    "winner": "paperA",
+    "date": "2026-02-22T08:14:00Z",
+    "judge_model": "unknown",
+    "swapped_consistent": true,
+    "rationale_short": ""
+  },
+  {
+    "paper_a": "epi_a_005",
+    "paper_b": "epi_h_004",
+    "winner": "paperB",
+    "date": "2026-02-22T08:19:00Z",
+    "judge_model": "unknown",
+    "swapped_consistent": true,
+    "rationale_short": ""
+  },
+  {
+    "paper_a": "epi_a_009",
+    "paper_b": "epi_h_009",
+    "winner": "paperA",
+    "date": "2026-02-22T08:24:00Z",
+    "judge_model": "unknown",
+    "swapped_consistent": true,
+    "rationale_short": ""
+  },
+  {
+    "paper_a": "epi_a_013",
+    "paper_b": "epi_h_002",
+    "winner": "paperB",
+    "date": "2026-02-22T08:31:00Z",
+    "judge_model": "unknown",
+    "swapped_consistent": true,
+    "rationale_short": ""
+  },
+  {
+    "paper_a": "epi_a_008",
+    "paper_b": "epi_h_005",
+    "winner": "tie",
+    "date": "2026-02-22T08:37:00Z",
+    "judge_model": "unknown",
+    "swapped_consistent": true,
+    "rationale_short": ""
+  },
+  {
+    "paper_a": "epi_a_004",
+    "paper_b": "epi_h_009",
+    "winner": "paperB",
+    "date": "2026-02-22T14:37:18+00:00",
+    "judge_model": "gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_010",
+    "paper_b": "epi_h_002",
+    "winner": "paperB",
+    "date": "2026-02-22T14:37:18+00:00",
+    "judge_model": "gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_002",
+    "paper_b": "epi_h_003",
+    "winner": "paperB",
+    "date": "2026-02-22T14:37:18+00:00",
+    "judge_model": "gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_002",
+    "paper_b": "epi_h_001",
+    "winner": "paperB",
+    "date": "2026-02-22T14:37:18+00:00",
+    "judge_model": "gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_009",
+    "paper_b": "epi_h_004",
+    "winner": "paperB",
+    "date": "2026-02-22T14:37:18+00:00",
+    "judge_model": "gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_006",
+    "paper_b": "epi_h_005",
+    "winner": "paperB",
+    "date": "2026-02-22T14:37:18+00:00",
+    "judge_model": "gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_008",
+    "paper_b": "epi_h_003",
+    "winner": "paperB",
+    "date": "2026-02-22T14:37:18+00:00",
+    "judge_model": "gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_006",
+    "paper_b": "epi_h_001",
+    "winner": "paperB",
+    "date": "2026-02-22T14:37:18+00:00",
+    "judge_model": "gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_010",
+    "paper_b": "epi_h_003",
+    "winner": "paperB",
+    "date": "2026-02-22T14:37:18+00:00",
+    "judge_model": "gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_006",
+    "paper_b": "epi_h_001",
+    "winner": "paperB",
+    "date": "2026-02-22T14:37:18+00:00",
+    "judge_model": "gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_006",
+    "paper_b": "epi_h_002",
+    "winner": "paperB",
+    "date": "2026-02-22T14:38:23+00:00",
+    "judge_model": "gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_001",
+    "paper_b": "epi_h_002",
+    "winner": "paperB",
+    "date": "2026-02-22T14:38:23+00:00",
+    "judge_model": "gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_004",
+    "paper_b": "epi_h_006",
+    "winner": "paperB",
+    "date": "2026-02-22T14:38:23+00:00",
+    "judge_model": "gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_001",
+    "paper_b": "epi_h_009",
+    "winner": "paperB",
+    "date": "2026-02-22T14:38:23+00:00",
+    "judge_model": "gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_010",
+    "paper_b": "epi_h_002",
+    "winner": "paperB",
+    "date": "2026-02-22T14:38:23+00:00",
+    "judge_model": "gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_011",
+    "paper_b": "epi_h_007",
+    "winner": "paperB",
+    "date": "2026-02-22T15:20:55+00:00",
+    "judge_model": "gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_002",
+    "paper_b": "epi_h_008",
+    "winner": "paperB",
+    "date": "2026-02-22T15:20:55+00:00",
+    "judge_model": "gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  },
+  {
+    "paper_a": "epi_a_0014",
+    "paper_b": "epi_h_001",
+    "winner": "paperB",
+    "date": "2026-02-22T15:21:29+00:00",
+    "judge_model": "gemini-2.5-flash",
+    "swapped_consistent": true,
+    "rationale_short": "Human paper preferred for robustness and reporting clarity."
+  }
+]

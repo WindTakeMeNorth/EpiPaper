@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EPI-APE | Autonomous Epidemiology Evaluation</title>
+    <meta
+      name="description"
+      content="An open benchmark where AI-generated epidemiology papers compete with peer-reviewed research across Social & Spatial Epidemiology and Community Health."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="bg-layer" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">EPI</span>
+        <span class="brand-copy">
+          <strong>Autonomous Epidemiology Evaluation</strong>
+          <small>Open paper tournament</small>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html" class="is-active">Leaderboard</a>
+        <a href="methodology.html">Methodology</a>
+        <a href="agendas.html">Agendas</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero reveal">
+        <p class="kicker">Project EPI-APE</p>
+        <h1>
+          Can AI automate
+          <span>epidemiology policy evaluation</span>
+          without compromising rigor?
+        </h1>
+        <p class="lead">
+          We run an open tournament where AI papers are compared to peer-reviewed
+          epidemiology studies. Focus areas include Social & Spatial EPI,
+          Community Health, and Health Equity.
+        </p>
+      </section>
+
+      <section class="alert reveal" role="note">
+        <strong>Warning:</strong> AI papers are experimental and not fully
+        peer-reviewed. Rankings are a screening signal, not scientific truth.
+      </section>
+
+      <section class="stats-grid reveal" aria-label="Project statistics">
+        <article class="stat-card">
+          <h2 id="stat-total-papers">0</h2>
+          <p>Total papers</p>
+        </article>
+        <article class="stat-card">
+          <h2 id="stat-total-matches">0</h2>
+          <p>Total matches</p>
+        </article>
+        <article class="stat-card">
+          <h2 id="stat-ai-win-rate">0%</h2>
+          <p>AI win rate</p>
+        </article>
+        <article class="stat-card">
+          <h2 id="stat-last-updated">-</h2>
+          <p>Last updated</p>
+        </article>
+      </section>
+
+      <section class="panel reveal" aria-labelledby="top-ai-title">
+        <div class="panel-head">
+          <h2 id="top-ai-title">Top AI papers</h2>
+          <a href="agendas.html" class="text-link">See all agendas</a>
+        </div>
+        <div id="top-ai-list" class="top-list"></div>
+      </section>
+
+      <section class="panel reveal" aria-labelledby="leaderboard-title">
+        <div class="panel-head leader-head">
+          <h2 id="leaderboard-title">Leaderboard</h2>
+          <div class="filters" role="group" aria-label="Filters">
+            <label>
+              <span>Source</span>
+              <select id="filter-source">
+                <option value="all">All</option>
+                <option value="human">Human</option>
+                <option value="ai">AI</option>
+              </select>
+            </label>
+            <label>
+              <span>Track</span>
+              <select id="filter-track">
+                <option value="all">All tracks</option>
+              </select>
+            </label>
+            <label>
+              <span>Search</span>
+              <input id="search-title" type="search" placeholder="Title or method" />
+            </label>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Paper</th>
+                <th>Source</th>
+                <th>Track</th>
+                <th>mu</th>
+                <th>sigma</th>
+                <th>Cons.</th>
+                <th>Elo</th>
+                <th>MP</th>
+                <th>Advisor</th>
+                <th>Reviewer</th>
+                <th>Reviewed</th>
+              </tr>
+            </thead>
+            <tbody id="leaderboard-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel reveal" aria-labelledby="recent-title">
+        <div class="panel-head">
+          <h2 id="recent-title">Recent matches</h2>
+        </div>
+        <div id="recent-matches" class="recent-list"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        EPI-APE is an open experiment in autonomous epidemiology research. Use
+        this leaderboard as triage, not final evidence.
+      </p>
+    </footer>
+
+    <script src="assets/js/app.js" defer></script>
+  </body>
+</html>
